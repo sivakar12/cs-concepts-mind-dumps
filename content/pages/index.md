@@ -1,8 +1,9 @@
 ---
 template: 'index-template'
-title: 'Gatsby Starter Glass'
+title: 'CS Concepts Mind Dumps'
 ---
 
-#Hello World
+# CS Concepts Mind Dumps
 
-A minimal & beautiful gatsby personal blog starter with nice glassmorphism UI.
+A mind dumping blog-like thing where I try to guess how things work
+Like first drafts of blog posts. Unedited. There aren't even paragraph breaks.

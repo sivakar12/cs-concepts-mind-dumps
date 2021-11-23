@@ -1,12 +1,12 @@
 ---
-title: About Mee
+title: About Me
 template: about-template
 profile_image: /media/profile-image.jpg
 ---
 
-# Hi, I'm John Doe
+# Hi, I'm Sivakar Sithamparanathan
 
-This website is a live example of a Gatsby Starter — it's not a real blog.
-People using this starter may want to add some information to this page about them or their business.
-
+This is a mind dumping blog-like thing where I try to guess how things work.
+I won't say everything here is accurate. I do this for my own needs - to get a sense 
+of how things work. This may be of use to others. If it works for you, do read.
 
