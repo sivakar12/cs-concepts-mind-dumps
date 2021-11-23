@@ -103,9 +103,10 @@ module.exports = {
               }
             }
           }
-        `,
+        `, 
         feeds: [
           {
+            title: 'Sivakar\'s Mind Dumps on CS topics',
             serialize: ({ query: { site, allMarkdownRemark } }) => {
               return allMarkdownRemark.nodes.map((node) => {
                 return Object.assign({}, node.frontmatter, {
