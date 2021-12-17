@@ -1,0 +1,5 @@
+---
+title: BIOS, UEFI, GPT, MPR
+date: 2020-09-14 19:35
+---
+Bios is the code, machine code that first runs on the CPU. It reads all the hardware connected to the CPU, by sending them some instruction and reading the response. Usually it then loads the OS from the external storage, hard drive. UEFI is the new version of BIOS and has secure boot feature. The OS could be in any partition in the storage. The partion informtion itself is in the hard disk. The two protocols to store hard disk information is GPT and MPR. GPT is the new one. GPT works properly with UEFI only. The BIOS reads partition table and finds out where the operating system is and starts the kernel. Put the kernel process in the RAM and set the instruction pointer to that. Thereafter is the OS doing everything. Isntrad of OS, it can go to a bootloader that then reads and loads the OS too. So you can have multiple Oses on a single drive. How does secure boot work? It showhow checks the hash or process or something to determine the OS is the real OS.

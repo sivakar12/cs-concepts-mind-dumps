@@ -1,0 +1,5 @@
+---
+title: Playing Video or Audio
+date: 2020-09-14 19:45
+---
+The application runs as a process. The files are in the hard disk. The output has to go to the IO devices. But the full file is not loaded to the memory. Part of the file is enough. The file has a codec. It is part of the metadata of the file. From the metadata it is possible to know which part of the file to read when seeking. The OS has this fearure to allow from reading from any mid point of the file. Once the part is read from the memory, it is sent to the IO device. But this needs to happen at the right speed. Does it depend on OS interrupts to synchronize. Also video can’t directly go to the output device. It has to go through the GUI process. Codec decoding can happen through hardware. In that case, you can put the read bytes on the accelerator and the the pixels on the outside

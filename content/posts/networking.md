@@ -1,0 +1,5 @@
+---
+title: Networking
+date: 2020-11-12 14:38
+---
+We have a device. No. Many devices. It could be an ethernet controller. A WiFi module. Or a Bluetooth thing. Let's leave out Bluetooth for now. All of these devices have a Mac address. IP address is software. It is with the os. Os is what maintains 9 comechon. A host can be in one network at a time. How does this WiFi module work. It has a driver. Driver is part of the os. Os can see an instruct hon to it asking it to search. The conmeehan is at os level. A connection is basically som state in the memory. The network manager is a process. Once some connection is established, it can seal messages to the WiFi module to broadcast some signal to a MAC address. In The IP address and things are in the payload. It reaches the router. The os also does some checks things to handle errors. Losing connection is also handed at os level. Blue booth is different. It is like USB. You use it to maintain connections with many devices. Each have their own address. At that blast ish devices are accessed just like normal devices.
