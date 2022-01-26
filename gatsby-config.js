@@ -162,5 +162,13 @@ module.exports = {
       },
     },
     `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: [
+          "G-WZ75V43XK6"
+        ]
+      }
+    }
   ],
 };
